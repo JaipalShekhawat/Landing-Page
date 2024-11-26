@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap");
+
+/* Using a url */
+
+/********** Template CSS **********/
+
+:root {
+  --background-color: #f1f1f1;
+  --hover-color: rgb(102, 40, 245);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+body {
+  font-family: "Jost", sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  cursor: default;
+
+}
+
+/*** Scrollbar ***/
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff8503;
+  outline: 1px solid #ff8503;
+  border-radius: 20px;
+}
+
+/*--------------*/
+.navbar-brand {
+  max-width: 200px;
+  display: inline-block;
+}
+
+
+.navbar-brand img {
+  width: 100%;
+}
+
+
+.navbar {
+  background: white;
+}
+
+
+.navbar-nav li a {
+  color: #000000;
+  font-size: 16px;
+}
+
+
+
+.navbar-nav li {
+  margin: 0px 10px;
+}
+
+
+.btn {
+  border-radius: 40px;
+  min-width: 124px;
+  padding: 6px 12px;
+}
+
+/*--------------*/
+
+
+.hero-banner {
+  background: #383644;
+  color: #ffffff;
+}
+
+
+h1 {
+  font-size: 64px;
+}
+
+
+
+.hero-banner h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.hero-banner p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.hero-banner {
+  background: #383644;
+  color: #ffffff;
+  padding: 100px 0px 300px 0px;
+}
+
+
+.banner-img {
+  margin-top: -200px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.banner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 55px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.section-container {
+  padding: 80px 0px;
+}
+
+p.lead {
+  font-size: 16px;
+}
+
+
+.container {
+  max-width: 1200px;
+}
+
+
+.bg-img {
+  background-image: url(../images/clipart.png);
+  background-color: #15141a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.pt-160 {
+  padding-top: 160px;
+}
+
+.static-card {
+  color: #ffffff;
+}
+
+
+.static-card p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.static-card h5 {
+  font-size: 64px;
+}
+
+.cord-box {
+  padding: 24px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.cord-box h4 {
+  font-size: 18px;
+}
+
+.cord-box i {
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: #69d54e;
+}
+
+.cord-box .btn-link {
+  text-decoration: none;
+}
+
+
+.bg-form{background-image: url(../images/banner.jpg);
+  background-color: #15141a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-position: center;
+padding:200px 0px;
+background-attachment: fixed;}
+
+
+
+.bg-form .form-control,
+.bg-form .form-select{border-radius: 40px;}
+
+
+.footer {
+  background: #383644;
+  text-align: center;
+  display: block;
+  border-top: 4px solid #69d54e;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.btn-link {
+
+  text-decoration: none;
+}
+
+.dropdown-menu {box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; border:0px;
+}
+
+.navbar-nav li li {
+  margin: 0;
+}
